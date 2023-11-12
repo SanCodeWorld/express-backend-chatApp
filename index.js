@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 
 const io = socketio(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://voluble-sherbet-84d5dd.netlify.app/",
   },
 });
 
